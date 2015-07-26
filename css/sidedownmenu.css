@@ -1,0 +1,22 @@
+.menu li {
+	 list-style: none;
+	float: left;			
+}
+.submenu {
+    display: none;
+    position: relative;
+}
+ul.menu li a.mainmenu {
+    position: relative;
+}
+ul.subsetmenu {
+    list-style: none;
+	padding: 0;
+}
+ul.subsetmenu li {
+    float: none;    
+	text-align: left;
+}
+.headmouseover .submenu {
+	display: block;	
+}
